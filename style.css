@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "Robot", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+
+}
+header{
+    border: 1px solid #ccc;
+    height: 100vh;
+}
+
+nav h1{
+    font-size: 25px;
+    font-weight: 5 00;
+    padding: 10px;
+    border-bottom: 1px;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+
+nav ul li:hover {
+    background-color: #ccc;
+    transition: 0.3s ease-in-out;
+}
+main{
+    padding: 50px;
+    max-width: 1200px;
+}
+section{
+    margin-bottom: 50px;
+
+}
+
+#introduction h2 {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+
+@media screen and (min-width:320px) {
+    
+    nav h1 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 10px 20px;
+    }
+
+
+}
